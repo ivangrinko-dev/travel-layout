@@ -22,15 +22,13 @@ body {
     background-repeat: no-repeat;
     width: 41px;
     height: 41px;
-/*position: absolute;*/
-/*left: 191px;
-top: 49px;*/
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
 }
 header nav {
     display: flex;
@@ -38,8 +36,34 @@ header nav {
 
 header nav p {
     margin-right: 30px;
+    margin-top: 15px;
 }
 
 header nav div:not(:last-child) {
     margin-right: 18px;
+}
+
+
+.button {
+    width: 112px;
+    height: 34px;
+    background: #F5F5F5;
+    font: 500 15px 'Inter';
+    color: #FB8F1D;
+    text-align: center;
+    padding: 15px 0px 4px 0px;
+    border-radius: 5px;
+   /* margin-top: 9px;*/
+}
+
+.button-1 {
+    width: 112px;
+    height: 34px;
+    background:  #FB8F1D;;
+    font: 500 15px 'Inter';
+    color: #F5F5F5;
+    text-align: center;
+    padding: 15px 0px 4px 0px;
+    border-radius: 5px;
+   /* margin-top: 9px;*/
 }
