@@ -51,9 +51,15 @@ header nav div:not(:last-child) {
     font: 500 15px 'Inter';
     color: #FB8F1D;
     text-align: center;
-    padding: 15px 0px 4px 0px;
+    padding: 5px 0px 0px 0px;
     border-radius: 5px;
-   /* margin-top: 9px;*/
+    margin-top: 9px;
+    box-sizing: border-box;
+
+
+
+border: 1px solid #FB8F1D;
+border-radius: 8px;
 }
 
 .button-1 {
@@ -63,7 +69,71 @@ header nav div:not(:last-child) {
     font: 500 15px 'Inter';
     color: #F5F5F5;
     text-align: center;
-    padding: 15px 0px 4px 0px;
+    padding: 7px 0px 0px 0px;
     border-radius: 5px;
-   /* margin-top: 9px;*/
+    margin-top: 9px;
+    box-sizing: border-box;
 }
+
+.zag h1 {
+    width: 356px;
+    height: 160px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #202336;
+    margin-top: 100px;
+}
+
+.zag p {
+    width: 170px;
+    height: 27px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+color: #202336;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.img-saturn {
+    background-image: url(./assets/thousand-01\ 1.svg);
+    background-repeat: no-repeat;
+    width: 506px;
+    height: 483px;
+}
+.img-saturn {
+    margin-bottom: 100px;
+}
+
+.flex input {
+
+    display: flex;
+    margin-top: 30px;
+    width: 250px;
+    padding: 15px 0px 15px 10px;
+}
+
+.block-contakt-1 {
+    margin-bottom: 100px;
+}
+
+.button-2 {
+    width: 180px;
+    height: 25px;
+    background:  #FB8F1D;;
+    font: 500 15px 'Inter';
+    color: #F5F5F5;
+    text-align: center;
+    text-align-last: ;
+    padding: 20px 5px 20px 5px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
