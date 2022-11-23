@@ -1,25 +1,39 @@
-@font-face
+@font-face {
+font-family: 'inter';
+src: url(./fonts/Inter-Medium.ttf) format('truetype'),
+url(./fonts/Inter-Regular.ttf) format('truetype'),
+url(./fonts/Inter-SemiBold.ttf) format('truetype');
 
-* {
-    margin: o;
-    padding: 0;
-    
+}
+
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: 'inter';
+}
+
+body {
+    width: 1200px;
+    margin: auto;
 }
 
 .img-logo {
-background-image: url(../travel-layout/Papka/logo.svg);
-background-repeat: no-repeat;
-position: absolute;
-width: 41px;
-height: 41px;
-left: 191px;
-top: 49px;
+    background-image: url(./assets/logo\ \(2\).svg);
+    background-repeat: no-repeat;
+    width: 41px;
+    height: 41px;
+/*position: absolute;*/
+/*left: 191px;
+top: 49px;*/
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+}
+header nav {
+    display: flex;
 }
 
 header nav p {
