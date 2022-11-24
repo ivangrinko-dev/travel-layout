@@ -25,9 +25,16 @@ body {
 }
 
 header {
+    padding-left: 25px;
+    padding-right: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 97%;
+    background-color: #F5F5F5;
   
 }
 header nav {
@@ -125,15 +132,21 @@ color: #202336;
 }
 
 .button-2 {
-    width: 180px;
+    width: 100px;
     height: 25px;
     background:  #FB8F1D;;
     font: 500 15px 'Inter';
     color: #F5F5F5;
     text-align: center;
-    text-align-last: ;
-    padding: 20px 5px 20px 5px;
+    padding: 12px 5px 30px 5px;
     border-radius: 8px;
     margin-top: 40px;
+    box-sizing: border-box;
 }
 
+.img-exstrim {
+    background-image: url(./assets/Thousand-02\ 1.svg);
+    background-repeat: no-repeat;
+    width: 659px;
+    height: 534px;
+}
