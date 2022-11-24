@@ -1,14 +1,14 @@
 @font-face {
-font-family: 'inter';
-src: url(./fonts/Inter-Medium.ttf) format('truetype'),
-url(./fonts/Inter-Regular.ttf) format('truetype'),
-url(./fonts/Inter-SemiBold.ttf) format('truetype');
+    font-family: 'inter';
+    src: url(./fonts/Inter-Medium.ttf) format('truetype'),
+        url(./fonts/Inter-Regular.ttf) format('truetype'),
+        url(./fonts/Inter-SemiBold.ttf) format('truetype');
 
 }
 
-*{
+* {
     margin: 0;
-    padding: 0;  
+    padding: 0;
     font-family: 'inter';
 }
 
@@ -35,8 +35,9 @@ header {
     top: 0;
     width: 97%;
     background-color: #F5F5F5;
-  
+
 }
+
 header nav {
     display: flex;
 }
@@ -65,14 +66,15 @@ header nav div:not(:last-child) {
 
 
 
-border: 1px solid #FB8F1D;
-border-radius: 8px;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
 }
 
 .button-1 {
     width: 112px;
     height: 34px;
-    background:  #FB8F1D;;
+    background: #FB8F1D;
+    ;
     font: 500 15px 'Inter';
     color: #F5F5F5;
     text-align: center;
@@ -97,16 +99,16 @@ border-radius: 8px;
     width: 170px;
     height: 27px;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-color: #202336;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #202336;
 }
 
 .flex {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 
 .img-saturn {
@@ -115,6 +117,7 @@ color: #202336;
     width: 506px;
     height: 483px;
 }
+
 .img-saturn {
     margin-bottom: 100px;
 }
@@ -134,7 +137,8 @@ color: #202336;
 .button-2 {
     width: 100px;
     height: 25px;
-    background:  #FB8F1D;;
+    background: #FB8F1D;
+    ;
     font: 500 15px 'Inter';
     color: #F5F5F5;
     text-align: center;
@@ -144,9 +148,155 @@ color: #202336;
     box-sizing: border-box;
 }
 
-.img-exstrim {
+.zag-1 h1 {
+    width: 481px;
+    height: 100px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.zag-1 p {
+    width: 450px;
+    height: 120px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.zag-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.button-3 {
+    width: 100px;
+    height: 25px;
+    background: #FB8F1D;
+    ;
+    font: 500 15px 'Inter';
+    color: #F5F5F5;
+    text-align: center;
+    padding: 12px 5px 30px 5px;
+    border-radius: 8px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.img {
     background-image: url(./assets/Thousand-02\ 1.svg);
     background-repeat: no-repeat;
     width: 659px;
     height: 534px;
+    margin-bottom: 100px;
+}
+
+
+.par {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.par h1 {
+    width: 481px;
+    height: 50px;
+    ont-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+}
+
+.par p {
+    width: 80px;
+    height: 60px;
+    ont-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FB8F1D;
+}
+
+.fauna {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 51px;
+    width: 100%;
+}
+
+.img-fauna {
+    background-image: url(./assets/image\ 4.svg);
+    background-repeat: no-repeat;
+    width: 648px;
+    height: 432px;
+    flex: 1;
+}
+
+.img-fauna-1 {
+    background-image: url(./assets/Screen\ Shot\ 2020-02-14\ at\ 4.36\ 1.svg);
+    background-repeat: no-repeat;
+    width: 643px;
+    height: 400px;
+    flex: 1;
+}
+
+.img-fauna-2 {
+    background-image: url(./assets/Screen\ Shot\ 2020-02-15\ at\ 11.04\ 1.svg);
+    background-repeat: no-repeat;
+    width: 536px;
+    height: 372px;
+    flex: 1;
+}
+
+.img-fauna-3 {
+    background-image: url(./assets/Screen\ Shot\ 2020-02-15\ at\ 11.10\ 1.svg);
+    background-repeat: no-repeat;
+    width: 467px;
+    height: 337px;
+    flex: 1;
+}
+
+.sunny {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sunny h1 {
+    width: 481px;
+    height: 100px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #202336;
+    margin-top: 100px;
+}
+
+.sunny p {
+    width: 450px;
+    height: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    color: #7D7987;
+}
+
+.img-salfe {
+    background-image: url(./assets/Thousand-03.svg);
+    background-repeat: no-repeat;
+    width: 4599px;
+    height: 542px;
 }
