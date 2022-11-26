@@ -348,6 +348,7 @@ header nav div:not(:last-child) {
 }
 
 footer {
+    background-color: #F9F9FB;
     display: flex;
     justify-content: space-around;
     margin-bottom: 70px;
