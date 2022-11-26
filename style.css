@@ -370,6 +370,27 @@ footer p {
     color: #848484;
 }
 
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 500px) {
     .flex {
         display: flex;
